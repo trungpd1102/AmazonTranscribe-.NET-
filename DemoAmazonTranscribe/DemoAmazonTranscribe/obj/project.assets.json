@@ -1,0 +1,198 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AWSSDK.Core/3.7.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.7.1.19": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.1.3, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {}
+        }
+      },
+      "AWSSDK.TranscribeService/3.7.3.26": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.1.3, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.TranscribeService.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.TranscribeService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Core/3.7.1.3": {
+      "sha512": "7+RN+fjnEwIqx07Fj8mCl4PNJ2ZnhZQ67IYjbTLH1Mgee2mDiDGDUYRrXe4KGAQaXJJNIMgbJG+y5hNSxAMNtw==",
+      "type": "package",
+      "path": "awssdk.core/3.7.1.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.1.3.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.S3/3.7.1.19": {
+      "sha512": "ZN1NPcEd6fCw78mr0ia/T1Wff2u1MZ4eGOHoQ8IxJ2FdMMqPbmB1A0hdNjLyjPWoPH500thQzCPfzxB7JZQRZA==",
+      "type": "package",
+      "path": "awssdk.s3/3.7.1.19",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "awssdk.s3.3.7.1.19.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/netcoreapp3.1/AWSSDK.S3.dll",
+        "lib/netcoreapp3.1/AWSSDK.S3.pdb",
+        "lib/netcoreapp3.1/AWSSDK.S3.xml",
+        "lib/netstandard2.0/AWSSDK.S3.dll",
+        "lib/netstandard2.0/AWSSDK.S3.pdb",
+        "lib/netstandard2.0/AWSSDK.S3.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.TranscribeService/3.7.3.26": {
+      "sha512": "mmYy4xss5XAPKogtnHKHzdSdg6isIh2V+HopO6tFq7LrPh64yM8bdl/xb/omII455v5akFL2KmjyVKgP1zETnA==",
+      "type": "package",
+      "path": "awssdk.transcribeservice/3.7.3.26",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.TranscribeService.CodeAnalysis.dll",
+        "awssdk.transcribeservice.3.7.3.26.nupkg.sha512",
+        "awssdk.transcribeservice.nuspec",
+        "lib/net35/AWSSDK.TranscribeService.dll",
+        "lib/net35/AWSSDK.TranscribeService.pdb",
+        "lib/net35/AWSSDK.TranscribeService.xml",
+        "lib/net45/AWSSDK.TranscribeService.dll",
+        "lib/net45/AWSSDK.TranscribeService.pdb",
+        "lib/net45/AWSSDK.TranscribeService.xml",
+        "lib/netcoreapp3.1/AWSSDK.TranscribeService.dll",
+        "lib/netcoreapp3.1/AWSSDK.TranscribeService.pdb",
+        "lib/netcoreapp3.1/AWSSDK.TranscribeService.xml",
+        "lib/netstandard2.0/AWSSDK.TranscribeService.dll",
+        "lib/netstandard2.0/AWSSDK.TranscribeService.pdb",
+        "lib/netstandard2.0/AWSSDK.TranscribeService.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AWSSDK.S3 >= 3.7.1.19",
+      "AWSSDK.TranscribeService >= 3.7.3.26"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Trung\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "H:\\IT\\AWS\\AmazonTranscribe\\DemoAmazonTranscribe\\DemoAmazonTranscribe\\DemoAmazonTranscribe.csproj",
+      "projectName": "DemoAmazonTranscribe",
+      "projectPath": "H:\\IT\\AWS\\AmazonTranscribe\\DemoAmazonTranscribe\\DemoAmazonTranscribe\\DemoAmazonTranscribe.csproj",
+      "packagesPath": "C:\\Users\\Trung\\.nuget\\packages\\",
+      "outputPath": "H:\\IT\\AWS\\AmazonTranscribe\\DemoAmazonTranscribe\\DemoAmazonTranscribe\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Trung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.7.1.19, )"
+          },
+          "AWSSDK.TranscribeService": {
+            "target": "Package",
+            "version": "[3.7.3.26, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
