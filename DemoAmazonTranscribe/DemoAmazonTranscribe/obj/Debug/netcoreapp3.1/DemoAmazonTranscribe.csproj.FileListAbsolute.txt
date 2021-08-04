@@ -1,0 +1,17 @@
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\bin\Debug\netcoreapp3.1\DemoAmazonTranscribe.exe
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\bin\Debug\netcoreapp3.1\DemoAmazonTranscribe.deps.json
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\bin\Debug\netcoreapp3.1\DemoAmazonTranscribe.runtimeconfig.json
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\bin\Debug\netcoreapp3.1\DemoAmazonTranscribe.runtimeconfig.dev.json
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\bin\Debug\netcoreapp3.1\DemoAmazonTranscribe.dll
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\bin\Debug\netcoreapp3.1\DemoAmazonTranscribe.pdb
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\bin\Debug\netcoreapp3.1\AWSSDK.TranscribeService.dll
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\obj\Debug\netcoreapp3.1\DemoAmazonTranscribe.csproj.AssemblyReference.cache
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\obj\Debug\netcoreapp3.1\DemoAmazonTranscribe.AssemblyInfoInputs.cache
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\obj\Debug\netcoreapp3.1\DemoAmazonTranscribe.AssemblyInfo.cs
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\obj\Debug\netcoreapp3.1\DemoAmazonTranscribe.csproj.CoreCompileInputs.cache
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\obj\Debug\netcoreapp3.1\DemoAmazonTranscribe.csproj.CopyComplete
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\obj\Debug\netcoreapp3.1\DemoAmazonTranscribe.dll
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\obj\Debug\netcoreapp3.1\DemoAmazonTranscribe.pdb
+H:\IT\AWS\AmazonTranscribe\DemoAmazonTranscribe\DemoAmazonTranscribe\obj\Debug\netcoreapp3.1\DemoAmazonTranscribe.genruntimeconfig.cache

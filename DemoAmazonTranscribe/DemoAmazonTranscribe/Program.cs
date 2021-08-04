@@ -15,78 +15,43 @@ namespace DemoAmazonTranscribe
 {
     class Program
     {
-        private const string BucketUri = "https://s3.eu-west-1.amazonaws.com/{0}/{1}";
+        private const string BucketUri = "s3://amazon-transcribe-0001/short-news-jp.mp3";
         private static string _bucketName;
 
-        static async Task Main(string[] args)
+        static async Task Main()
         {
-            if (args.Length != 2)
-            {
-                Console.WriteLine("Please provide audio file and language code.");
 
-                return;
-            }
+            var langCode = "ja-JP";
+            var filename = "short-news-jp.mp3";
 
-            var filename = args[0];
-            var langCode = args[1];
+            _bucketName = "amazon-transcribe-0001";
 
-            _bucketName = "assets-" + Guid.NewGuid().ToString();
 
-            await UploadInputFileToS3(filename);
+
 
             await TranscribeInputFile(filename, langCode);
 
             Console.WriteLine("The process is complete");
         }
 
-        static async Task UploadInputFileToS3(string fileName)
-        {
-            var objectName = Path.GetFileName(fileName);
-
-            using (var s3Client = new AmazonS3Client(Amazon.RegionEndpoint.APNortheast1))
-            {
-                var putBucketRequest = new PutBucketRequest()
-                {
-                    BucketName = _bucketName
-                };
-
-                var putBucketResponse = await s3Client.PutBucketAsync(putBucketRequest);
-
-                if (putBucketResponse.HttpStatusCode != HttpStatusCode.OK)
-                {
-                    Console.WriteLine("Couldn't create the S3 bucket!");
-                }
-
-                var putObjectRequest = new PutObjectRequest
-                {
-                    BucketName = _bucketName,
-                    Key = objectName,
-                    ContentType = "audio/mpeg",
-                    FilePath = fileName
-                };
-
-                await s3Client.PutObjectAsync(putObjectRequest);
-            }
-        }
 
         static async Task TranscribeInputFile(string fileName, string targetLanguageCode)
         {
-            var objectName = Path.GetFileName(fileName);
 
             using (var transcribeClient = new AmazonTranscribeServiceClient(Amazon.RegionEndpoint.APNortheast1))
             {
                 var media = new Media()
                 {
-                    MediaFileUri = string.Format(BucketUri, _bucketName, objectName)
+                    MediaFileUri = BucketUri
                 };
 
-                var transcriptionJobRequest = new StartTranscriptionJobRequest()
+                 var transcriptionJobRequest = new StartTranscriptionJobRequest()
                 {
                     LanguageCode = targetLanguageCode,
                     Media = media,
                     MediaFormat = MediaFormat.Mp3,
-                    TranscriptionJobName = string.Format("transcribe-job-{0}", _bucketName),
-                    OutputBucketName = _bucketName
+                    TranscriptionJobName = string.Format("transcribe-job-"+ fileName, _bucketName),
+                    OutputBucketName = _bucketName,
                 };
 
                 var transcriptionJobResponse = await transcribeClient.StartTranscriptionJobAsync(transcriptionJobRequest);

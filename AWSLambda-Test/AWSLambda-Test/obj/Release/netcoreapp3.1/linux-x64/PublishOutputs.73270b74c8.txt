@@ -1,0 +1,6 @@
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\publish\AWSLambda-Test.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\publish\AWSLambda-Test.deps.json
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\publish\AWSLambda-Test.runtimeconfig.json
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\publish\AWSLambda-Test.pdb
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Core.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Serialization.SystemTextJson.dll

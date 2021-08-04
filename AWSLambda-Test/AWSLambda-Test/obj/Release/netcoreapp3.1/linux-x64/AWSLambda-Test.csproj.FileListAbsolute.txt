@@ -1,0 +1,15 @@
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.deps.json
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.runtimeconfig.json
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.runtimeconfig.dev.json
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.pdb
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\linux-x64\Amazon.Lambda.Core.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\bin\Release\netcoreapp3.1\linux-x64\Amazon.Lambda.Serialization.SystemTextJson.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\obj\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.csproj.AssemblyReference.cache
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\obj\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.AssemblyInfoInputs.cache
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\obj\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.AssemblyInfo.cs
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\obj\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.csproj.CoreCompileInputs.cache
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\obj\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.csproj.CopyComplete
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\obj\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\obj\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.pdb
+H:\IT\AWS\AmazonTranscribe\AWSLambda-Test\AWSLambda-Test\obj\Release\netcoreapp3.1\linux-x64\AWSLambda-Test.genruntimeconfig.cache
