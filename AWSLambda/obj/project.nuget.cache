@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HxZdztIvu5IokSQSONDnblpzyKV97C8CM2VQkH/01jbpISIFCr5ln5jDayFFGqW8CacFaqZNJqXzQbgrTmodow==",
+  "success": true,
+  "projectFilePath": "H:\\IT\\AWS\\AmazonTranscribe\\AWSLambda\\AWSLambda.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Trung\\.nuget\\packages\\amazon.lambda.core\\1.2.0\\amazon.lambda.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\Trung\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
