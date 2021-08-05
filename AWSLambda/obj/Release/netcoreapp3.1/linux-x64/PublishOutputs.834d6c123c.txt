@@ -4,3 +4,6 @@ H:\IT\AWS\AmazonTranscribe\AWSLambda\bin\Release\netcoreapp3.1\publish\AWSLambda
 H:\IT\AWS\AmazonTranscribe\AWSLambda\bin\Release\netcoreapp3.1\publish\AWSLambda.pdb
 H:\IT\AWS\AmazonTranscribe\AWSLambda\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Core.dll
 H:\IT\AWS\AmazonTranscribe\AWSLambda\bin\Release\netcoreapp3.1\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda\bin\Release\netcoreapp3.1\publish\AWSSDK.Core.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda\bin\Release\netcoreapp3.1\publish\AWSSDK.S3.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda\bin\Release\netcoreapp3.1\publish\AWSSDK.TranscribeService.dll

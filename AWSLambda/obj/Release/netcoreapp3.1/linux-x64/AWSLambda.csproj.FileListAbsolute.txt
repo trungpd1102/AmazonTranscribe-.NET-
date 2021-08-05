@@ -13,3 +13,6 @@ H:\IT\AWS\AmazonTranscribe\AWSLambda\obj\Release\netcoreapp3.1\linux-x64\AWSLamb
 H:\IT\AWS\AmazonTranscribe\AWSLambda\obj\Release\netcoreapp3.1\linux-x64\AWSLambda.dll
 H:\IT\AWS\AmazonTranscribe\AWSLambda\obj\Release\netcoreapp3.1\linux-x64\AWSLambda.pdb
 H:\IT\AWS\AmazonTranscribe\AWSLambda\obj\Release\netcoreapp3.1\linux-x64\AWSLambda.genruntimeconfig.cache
+H:\IT\AWS\AmazonTranscribe\AWSLambda\bin\Release\netcoreapp3.1\linux-x64\AWSSDK.Core.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda\bin\Release\netcoreapp3.1\linux-x64\AWSSDK.S3.dll
+H:\IT\AWS\AmazonTranscribe\AWSLambda\bin\Release\netcoreapp3.1\linux-x64\AWSSDK.TranscribeService.dll

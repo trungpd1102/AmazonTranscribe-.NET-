@@ -1,5 +1,10 @@
 using System;
-using System.Web;
+using System.Net;
+
+using System.Threading.Tasks;
+
+using Amazon.TranscribeService;
+using Amazon.TranscribeService.Model;
 
 using Amazon.Lambda.Core;
 
@@ -10,6 +15,11 @@ namespace AWSLambda
 {
     public class Function
     {
+
+        private const string BucketUri = "s3://amazon-transcribe-0001/audio/car-jp-5mins.mp3";
+        private static string _bucketName;
+
+       
 
         ///<summary>
         ///S3Util
@@ -22,43 +32,54 @@ namespace AWSLambda
         /// <param name="input"></param>
         /// <param name="context"></param>
         /// <returns></returns>
-        public ResponseData FunctionHandler(Param input, ILambdaContext context)
+        public async Task FunctionHandler(string input, ILambdaContext context)
         {
-            var responseData = new ResponseData
-            {
-                result = false
-            };
-
-            try
-            {
-                var deviceId = HttpUtility.UrlDecode(input.deviceId);
-                Console.WriteLine("===============OK================");
-                Console.WriteLine($"deviceId: {deviceId}");
-
-                //
-                Console.WriteLine("=================================");
-
-                responseData.result = true;
-            }
-            catch (Exception ex)
-            {
-                responseData.result = false;
-                responseData.message = ex.ToString();
-                return responseData;
-            }
-            return responseData;
+            await CreateTranscribe();
         }
 
-        public class ResponseData
+        static async Task CreateTranscribe()
         {
-            public bool result { get; set; }
 
-            public String message { get; set; }
+            var langCode = "ja-JP";
+            var filename = "car-jp-5mins.mp3";
+
+            _bucketName = "amazon-transcribe-0001";
+
+            await TranscribeInputFile(filename, langCode);
+
+            Console.WriteLine("The process is complete");
         }
 
-        public class Param
+
+        static async Task TranscribeInputFile(string fileName, string targetLanguageCode)
         {
-            public string deviceId { get; set; }
+
+            using (var transcribeClient = new AmazonTranscribeServiceClient(Amazon.RegionEndpoint.APNortheast1))
+            {
+                var media = new Media()
+                {
+                    MediaFileUri = BucketUri
+                };
+
+                var transcriptionJobRequest = new StartTranscriptionJobRequest()
+                {
+                    LanguageCode = targetLanguageCode,
+                    Media = media,
+                    MediaFormat = MediaFormat.Mp3,
+                    TranscriptionJobName = string.Format("transcribe-job-{0}-", _bucketName),
+                    OutputBucketName = _bucketName,
+                };
+
+                var transcriptionJobResponse = await transcribeClient.StartTranscriptionJobAsync(transcriptionJobRequest);
+                Console.WriteLine(transcriptionJobResponse);
+
+                if (transcriptionJobResponse.HttpStatusCode != HttpStatusCode.OK)
+                {
+                    Console.WriteLine("Couldn't create transcription job");
+                }
+            }
+
+            Console.WriteLine("The transcription job request has been created successfully.");
         }
     }
 }

@@ -43,9 +43,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.1.20, )"
+            },
+            "AWSSDK.TranscribeService": {
+              "target": "Package",
+              "version": "[3.7.4, )"
+            },
             "Amazon.Lambda.Core": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[2.0.0, )"
             },
             "Amazon.Lambda.Serialization.SystemTextJson": {
               "target": "Package",

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "HxZdztIvu5IokSQSONDnblpzyKV97C8CM2VQkH/01jbpISIFCr5ln5jDayFFGqW8CacFaqZNJqXzQbgrTmodow==",
+  "dgSpecHash": "ta6gHlYDe3O1MtHEuCtlAR8SbpE2hRMeUT9JCG4qwyxoYHQhFN2JvILHtNf4GFDVhJJawiWoTKN0OhfAfdTryQ==",
   "success": true,
   "projectFilePath": "H:\\IT\\AWS\\AmazonTranscribe\\AWSLambda\\AWSLambda.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Trung\\.nuget\\packages\\amazon.lambda.core\\1.2.0\\amazon.lambda.core.1.2.0.nupkg.sha512",
-    "C:\\Users\\Trung\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512"
+    "C:\\Users\\Trung\\.nuget\\packages\\amazon.lambda.core\\2.0.0\\amazon.lambda.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\Trung\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "C:\\Users\\Trung\\.nuget\\packages\\awssdk.core\\3.7.1.4\\awssdk.core.3.7.1.4.nupkg.sha512",
+    "C:\\Users\\Trung\\.nuget\\packages\\awssdk.s3\\3.7.1.20\\awssdk.s3.3.7.1.20.nupkg.sha512",
+    "C:\\Users\\Trung\\.nuget\\packages\\awssdk.transcribeservice\\3.7.4\\awssdk.transcribeservice.3.7.4.nupkg.sha512"
   ],
   "logs": []
 }
